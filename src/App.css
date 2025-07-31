@@ -1,0 +1,41 @@
+#home{
+  background-color:blueviolet;
+  height:80vh;
+  color:gainsboro;
+  font-size: 20px;
+  font-weight:bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap:5px;
+}
+
+#home button,input{
+  width: fit-content;
+  display: flex;
+  align-self: center;
+  padding: 7px;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color:lightgray;
+  font-weight: bold;
+  border-color: lightgrey;
+  border-style: solid;
+  cursor: pointer;
+}
+#home input::placeholder{
+  color: azure;
+}
+
+#forText{
+  display:flex;
+  flex-direction: column;
+  justify-content: start;
+  height:100px;
+  flex-wrap: wrap;
+}
+
+#heading{
+  font-size: 30px;
+}
